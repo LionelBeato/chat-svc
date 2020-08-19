@@ -3,3 +3,6 @@ spring:
     mongodb:
       database: chat_service
       port: 27018
+
+server:
+  port: ${PORT:8080}
