@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
-@CrossOrigin(value = "https://gaming-lounge-frontend.herokuapp.com/chat")
+@CrossOrigin
 public class ChatController {
 
     @Autowired private SimpMessagingTemplate messagingTemplate;
