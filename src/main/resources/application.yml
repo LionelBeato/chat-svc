@@ -1,7 +1,3 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://fluffylizards:win2020@gaming-lounge.cwniv.mongodb.net/chat_service?retryWrites=true&w=majority
 
 server:
   port: ${PORT:8080}
