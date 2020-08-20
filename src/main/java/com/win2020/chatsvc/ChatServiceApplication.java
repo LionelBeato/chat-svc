@@ -7,11 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ChatServiceApplication {
 
 	public static void main(String[] args) {
-		try {
 			SpringApplication.run(ChatServiceApplication.class, args);
-		} catch (Exception e){
-			System.out.println(e.getMessage());
-		}
+
 	}
 
 }
